@@ -1,6 +1,8 @@
 .card {
-    background: var(--card);
-    border-radius: var(--radius);
+    /* background: var(--card); */
+    /* background: linear-gradient(white 10%); */
+    border: white 1px solid;
+    border-radius: 5px;
     padding: 20px;
     margin-bottom: 16px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.04);
