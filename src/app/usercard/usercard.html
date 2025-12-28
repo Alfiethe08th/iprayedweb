@@ -1,0 +1,17 @@
+<div class="card">
+    <h3>{{ user.name }}</h3>
+  
+    <div class="stats">
+      <span>👥 {{ user.peopleCount | number }}</span>
+      <span>🔢 {{ user.totalCount | number }}</span>
+      <span>🌍 {{ user.countries.length }} countries</span>
+    </div>
+  
+    <details>
+      <summary>View by country</summary>
+      <div class="country"
+           *ngFor="let c of user.countries">
+        {{ c.country }} — {{ c.count | number }}
+      </div>
+    </details>
+</div>

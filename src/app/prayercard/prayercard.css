@@ -1,0 +1,27 @@
+.card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+  }
+
+  h3 {
+    margin: 0 0 12px;
+  }
+
+  .stats {
+    display: flex;
+    gap: 14px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  details {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .country {
+    padding: 4px 0;
+  }
